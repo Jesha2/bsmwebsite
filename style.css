@@ -1,0 +1,12 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  .cardbg{
+    background-color: grey;
+    
+  }
+  .cardcolor{
+    background-color: aqua;
+  }
+  
