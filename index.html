@@ -148,10 +148,11 @@
 <form class="row g-3 needs-validation" action="submit.html" method="GET" >
  <div class="col-md-4"> 
   <label for="firstname" class="form-label">Please enter your first name:</label>
-  <input type="text" class="form-control" id="firstname" placeholder="First Name" minlength="3" maxlength="15" required >
+  <input type="text" class="form-control" id="firstname"
+  pattern="[A-Za-z]+" placeholder="First Name" minlength="3" maxlength="15" required >
 <br>
   <label for="formGroupExampleInput2" class="form-label">Please enter your last name: </label>
-  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last Name" required minlength="3" maxlength="15" >
+  <input type="text" class="form-control" id="formGroupExampleInput2" pattern="[A-Za-z]+" placeholder="Last Name" required minlength="3" maxlength="15" >
 </div>
   <div class="col-12">
     <button type="submit" class="btn btn-primary">Click to submit your information</button>
